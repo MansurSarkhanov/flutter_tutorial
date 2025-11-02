@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.green,
         title: TextWidget(text: 'Home', textColor: Colors.white),
       ),
       body: pageList[currentPage],
